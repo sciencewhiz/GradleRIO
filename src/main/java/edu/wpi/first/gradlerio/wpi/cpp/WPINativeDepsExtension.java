@@ -5,7 +5,7 @@ import javax.inject.Inject;
 import org.gradle.nativeplatform.NativeBinarySpec;
 import org.gradle.platform.base.VariantComponentSpec;
 
-import edu.wpi.first.nativeutils.NativeUtilsExtension;
+import org.wpilib.nativeutils.NativeUtilsExtension;
 
 public class WPINativeDepsExtension {
     private final NativeUtilsExtension nte;
